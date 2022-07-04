@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from 3D Glasses
+Effective date: 2022-07-04 13:47:59
+Classifications All
+Products "SU1-Level3-111"
+Assets All
+
+Exported by database exporter.
+-->
+<STEP-ProductInformation ExportTime="2022-07-04 13:48:00" ExportContext="Context1" ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+
+  <Products>
+    <Product ID="SU1-Level3-111" UserTypeID="Level3" ParentID="SU1-Level2-11">
+      <Name>3D Glasses</Name>
+      <AttributeLink AttributeID="Battery"/>
+      <AttributeLink AttributeID="SyncProtocol"/>
+
+      <Values>
+        <Value AttributeID="Warranty" UnitID="unece.unit.MON">6</Value>
+      </Values>
+      <Product ID="SU1-SalesItem-1111" UserTypeID="SalesItem">
+        <Name>AC-YU500A</Name>
+          <AttributeLink AttributeID="UVEX_LOV_attr"/>
+
+          <ClassificationReference ClassificationID="SU1-WebLevel2-23" Type="WebsiteLink"/>
+
+          <AssetCrossReference AssetID="M_AC-YU500A_DE" Type="ManualDE"/>
+          <AssetCrossReference AssetID="M_AC-YU500A_EN" Type="ManualEN"/>
+          <AssetCrossReference AssetID="P_AC-YU500A" Type="PrimaryProductImage"/>
+
+        <Values>
+          <Value AttributeID="Battery" ID="C2">C2</Value>
+          <Value AttributeID="ConsumerShortDescription">Active 3D Glasses</Value>
+          <Value AttributeID="EAN">4905014977623</Value>
+          <Value AttributeID="ShortAdvertisingCopy">Active 3D Glasses</Value>
+          <Value AttributeID="Width" UnitID="unece.unit.CMT">14.7</Value>
+          <Value AttributeID="Color" ID="BK">Black</Value>
+          <Value AttributeID="FeatureBullets">&lt;bulletlist&gt;&lt;bullet&gt;A comfortable design means they can be worn over your day-to-day glasses&lt;/bullet&gt;
+&lt;bullet&gt;The glasses sync with your TV using a radio frequency signal, for uninterrupted 3D viewing&lt;/bullet&gt;
+&lt;bullet&gt;Each pair of 3D glasses is adjustable and lightweight so they’re comfortable to wear during long movies&lt;/bullet&gt;
+&lt;bullet&gt;Compatible with P, X and T series TVs&lt;/bullet&gt;&lt;/bulletlist&gt;</Value>
+          <Value AttributeID="UPC">905014977623</Value>
+          <Value AttributeID="SellPackDepth" UnitID="unece.unit.CMT">6</Value>
+          <Value AttributeID="SellPackWeight" UnitID="unece.unit.KGM">0.086</Value>
+          <Value AttributeID="Weight" UnitID="unece.unit.KGM">0.036</Value>
+          <Value AttributeID="Depth" UnitID="unece.unit.CMT">17</Value>
+          <Value AttributeID="SellPackHeight" UnitID="unece.unit.CMT">4</Value>
+          <Value AttributeID="Height" UnitID="unece.unit.CMT">4.6</Value>
+          <Value AttributeID="SellPackWidth" UnitID="unece.unit.CMT">16</Value>
+          <Value AttributeID="LongAdvertisingCopy">Active 3D Glasses</Value>
+          <Value AttributeID="ManufacturerName" Derived="true">Acme Electronics, Inc.</Value>
+          <Value AttributeID="ManufacturerGLN" Derived="true">0743480060002</Value>
+          <Value AttributeID="CountryOfOrigin" Derived="true">GB</Value>
+        </Values>
+      </Product>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
